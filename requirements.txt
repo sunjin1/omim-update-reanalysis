@@ -1,0 +1,2 @@
+# Python scripts use the standard library only.
+# No pip dependencies are required.

@@ -1,0 +1,52 @@
+# Large sequencing/variant files
+*.vcf
+*.vcf.gz
+*.bam
+*.bai
+*.cram
+*.fastq
+*.fq
+*.gz
+*.zip
+*.bgz
+*.tbi
+
+# Patient/internal clinical data
+*clinical*
+*pheno*
+*registry*
+*sampleinfo*
+*negative.id
+*reanalysis.id
+*登记表*
+*.xlsx
+
+# Outputs and logs
+results/*
+!results/.gitkeep
+logs/*
+!logs/.gitkeep
+*.log
+*.out
+*.err
+slurm-*.out
+
+# Downloaded references
+ref/*
+!ref/.gitkeep
+
+# Secrets
+.env
+*.password
+*.token
+config/*.sh
+!config/*.example.sh
+
+# R/Python temp
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
